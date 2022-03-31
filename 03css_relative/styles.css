@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(42, 165, 42);
+  }
+  
+  .context {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 30px 50px;
+    border: 1px dashed black;
+  }
+  
+  div {
+    padding: 10px;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+    background-color: gold;
+  }
+  .box-1 {
+    
+    position: relative;
+    top: 40%;
+    border-bottom: 50%;
+  }
+  .box-2 {
+    position: relative;
+    top: 45%;
+    background-color:grey;
+    border-radius: 50%;
+  }
+  
