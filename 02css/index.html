@@ -1,48 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Aprendiendo estilos en html</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    h1 {
+      color: mediumblue;
+      margin: 10px;
+      font-size: 30px;
+      padding: auto;
+    }
+
+    h3 {
+      color: white;
+      font-style: italic;
+      margin: 0px;
+
+    }
+  </style>
+
 </head>
-<body style="margin: 0px">
-  <!-- Cabecera -->
-  <div style="position: relative;">
-    <h1 style="position: sticky; ">Cabecera</h1>
+
+<body style="background-color:mediumblue;">
+  <!-- div cabecera-->
+  <div style="background-color: gold;margin-top: -10px;margin-left: -10px;margin-right: -10px;">
+    <h1>bienvenidos</h1>
   </div>
-  <!-- Contenido Principial -->
+  <!-- div cuerpo-->
   <div>
-    <div style="display: inline-block">
-      menu lateral
+    <div style="color:gold;display: inline-block;width: 100px;">
+      <h3>Menu</h3>
+      <p>sergio simon alvarado quisbert. ingenieria de sistemas. Ipsum doloribus, saepe eveniet quidem in esse sit
+        exercitationem quasi incidunt nam cupiditate aut minima debitis pariatur voluptates facilis quisquam a labore?
+      </p>
     </div>
-    <div style="display: inline-block">
-      <h3>Contenido Principal</h3>
-      <p>
-        Commodo irure pariatur officia cillum. Ut esse dolore nisi ullamco ipsum Lorem irure sint laborum. Incididunt quis sint ut nostrud amet tempor eu.
-      </p>
-      <p>
-        Commodo irure pariatur officia cillum. Ut esse dolore nisi ullamco ipsum Lorem irure sint laborum. Incididunt quis sint ut nostrud amet tempor eu.
-      </p>
-      <p>
-        Commodo irure pariatur officia cillum. Ut esse dolore nisi ullamco ipsum Lorem irure sint laborum. Incididunt quis sint ut nostrud amet tempor eu.
-      </p>
-      <p>
-        Commodo irure pariatur officia cillum. Ut esse dolore nisi ullamco ipsum Lorem irure sint laborum. Incididunt quis sint ut nostrud amet tempor eu.
-      </p>
-      <p>
-        Commodo irure pariatur officia cillum. Ut esse dolore nisi ullamco ipsum Lorem irure sint laborum. Incididunt quis sint ut nostrud amet tempor eu.
-      </p>
-      <p>
-        Commodo irure pariatur officia cillum. Ut esse dolore nisi ullamco ipsum Lorem irure sint laborum. Incididunt quis sint ut nostrud amet tempor eu.
-      </p>
-      <p>
-        Commodo irure pariatur officia cillum. Ut esse dolore nisi ullamco ipsum Lorem irure sint laborum. Incididunt quis sint ut nostrud amet tempor eu.
-      </p>
-      <img src="./info.jpg" alt="Esto deberia ser una imagen">
+    <div style="display: inline-block;width: 500px;">
+      <h3 class="primer_parrafo">Contenido</h3>
+      <p class="alvarado">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque optio repudiandae quod
+        voluptatem tempore magni porro consequuntur molestias tenetur consequatur dolorum mollitia, unde, laborum fugit
+        alias perferendis aliquam vero laudantium!</p>
+      <p class="quisbert">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, nulla doloribus? Eius
+        molestias rem voluptas amet unde quo expedita incidunt omnis. Laudantium tempora nesciunt totam odio, illo eius
+        ad eveniet.</p>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint tempora magni in aut iste placeat voluptates,
+        laborum molestiae rerum accusamus cupiditate perferendis quasi? Temporibus quos dignissimos sit a provident
+        excepturi.</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, minima autem nemo temporibus illo
+        doloribus. Et, dolorum tenetur dicta ipsam possimus vel assumenda porro, est minima, accusamus facere iusto
+        unde.</p>
+    </div>
+    <div style=" display: inline-block;width: 100px;">
+      <img src="https://ombnoticias.files.wordpress.com/2016/02/homero-simpson.jpg" width="150" height="250">
     </div>
   </div>
-  <!-- Pie de Pagina -->
-  <div style="position: sticky; bottom: 0px;background-color: tomato;">Sobre Nosotros</div>
+  <!-- div pie de pagina-->
+  <div>
+    <h3 class="sergio">"A LA GRANDE LE PUSE CUCA" </h3>
+  </div>
 </body>
+
 </html>

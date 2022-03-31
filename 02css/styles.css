@@ -1,44 +1,29 @@
-body {
-    margin: 0px;
-    background-color: blueviolet;
-  
-  }
-  h1 {
-    background-color: blue;
-    color: white;
-    font-size: 50px;
-    /* Lo entiende como 20px de distancia a todos los lados "arriba, derecha, abajo, izquierda" */
-    margin: 0px 30px 10px 0px;
-    padding: 0px 0px 30px 10px;
-    /* margin-top: 0px;
-    margin-right: 30px;
-    margin-bottom: 10px;
-    margin-left: 0px; */
-  }
-  
-  .primeraClase {
-    color: blue;
-    font-size: 4px;
-  }
-  
-  #primerIdentificador {
-    color: white;
-  }
-  
-  .primerDiv{
-    display: inline-block; 
-    width: 100px; 
-    background-color: beige;
-  }
-  
-  .segundoDiv{
-    display: inline-block; 
-    width: 500px;
-    background-color: crimson;
-  }
-  
-  .footer{
-    margin-top: 20px; 
-    background-color: burlywood; 
-    position: sticky;
-  }
+p {
+  font-size: 15px;
+
+}
+
+.primer_parrafo {
+  font-style: oblique;
+  color: chartreuse;
+}
+
+.sergio {
+  color: mediumblue;
+  background-color: gold;
+  margin: 0px;
+  text-align: center;
+  font-size: 35px;
+}
+
+.alvarado {
+  color: aqua;
+  font-size: 16px;
+}
+
+.quisbert {
+  color: chartreuse;
+  font-style: oblique;
+  border-color: gold;
+  border-style: double;
+}
